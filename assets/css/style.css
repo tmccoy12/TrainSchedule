@@ -1,0 +1,99 @@
+body {
+    line-height: 30px;
+    background-image: url(train1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    padding: 0px;
+    margin: auto 0;
+    overflow: auto;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Roboto', sans-serif ;
+}
+
+h1 {
+    color:blue;
+}
+
+h2,h3, .panel-title, .panel-body {
+    color: yellow;
+}
+
+
+th {
+    color:white;
+}
+
+tr:hover {
+    background: #000;
+}
+
+tr:hover td {
+    background: rgba(148, 145, 145, 0.2);
+    color: yellow;
+}
+
+td {
+    font-size: 15px;
+    font-weight: 80;
+    color: white;
+}
+
+label {
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    padding: 0px;
+}
+
+.jumbotron {
+    width: 100%;
+    background: rgba(119, 112, 112, 0.438);
+    background: rgba(105, 105, 105, 0.24);    
+    color: #fff;
+    border: 3px solid blue;
+    top:15px;
+}
+
+.panel-primary, input {
+    background-color: rgba(0, 0, 0, 0.315);
+    border: 3px solid blue;
+    width: 100%;
+    color: white;
+}
+
+.panel-primary{
+    min-height: 500px;
+}
+
+.panel-primary >.panel-heading {
+    font-size: 18x;
+    background: rgba(94, 91, 91, 0.555);
+    background: rgba(105, 105, 105, .5);    
+    color: #fff;
+   
+}
+
+.panel-body, .panel-heading {
+    padding: 8px;
+}
+
+.milTime {
+    font-size: 15px;
+    line-height: 0px;
+}
+
+#freqDisplay, #nextDisplay {
+    text-align: center;
+}
